@@ -41,3 +41,9 @@ The script makes the following assumptions:
 It is not recommended to run this script at lower zoom levels than 5 or 6 as this will generate a huge amount of tiles.
 
 The number of map tiles per zoom level is exponential so this isn't ideal for generating real map tile layers but is better suited to small custom map instances.
+
+## Testing
+
+Included in this project is a demo page with [LeafletJS](http://leafletjs.com/ "Checkout LeafletJS") installed. Just copy `test-page-leaflet.html` straight into your export folder.
+
+It's set to zoom to a maximum level of 4 and loads local tiles.
